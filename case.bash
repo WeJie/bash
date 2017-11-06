@@ -31,3 +31,4 @@ case $1 in
 		echo "$1 is not an image!"
 		;;
 esac
+

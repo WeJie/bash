@@ -33,4 +33,3 @@ while [[ $num -le $2 ]]; do
 	num=$(( $num + 1 ))
 done
 
-
