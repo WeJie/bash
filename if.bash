@@ -39,7 +39,7 @@ else
 fi 
 
 if (( 4 < 20 )); then
-	echo "4 less then 20 in (())" 
+  echo "4 less then 20 in (())" 
 else
   echo "4 greater then 20 in (())" 
 fi 
