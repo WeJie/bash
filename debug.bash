@@ -10,7 +10,7 @@ echo 'xtrace is off now'
 set -x
 echo 'xtrace is turn on now'
 for (( i = 0; i < 3; i++ )); do
-	echo $i
+  echo $i
 done
 set +x
 
