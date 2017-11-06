@@ -2,9 +2,9 @@
 
 FRUIT=(apple banana orange tangerine)
 
-case "${FRUIT[$(( $RANDOM % ${#FRUIT[@]} ))]}" in
-	(apple)
-		echo 'Mmmh... I like apple!'
+case "${FRUIT[$(( $RANDOM % ${#FRUIT[@]} ))]}" in 
+  (apple)
+    echo 'Mmmh... I like apple!'
 		;;
 	(banana)
 		echo 'Hm, a bit awry, no?' 
