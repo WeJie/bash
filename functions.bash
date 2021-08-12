@@ -10,8 +10,8 @@ greeting () {
   return 0
 }
 
-#greeting World
-#greeting
+greeting World
+greeting
 
 get_even () {
   local start=$1
