@@ -1,8 +1,10 @@
 #! /bin/bash
 
-username = "Flash"
-echo $username
+username="Flash"
+
+echo My name is the $username
 echo "My name is the $username"
+echo "My name is the ${username}"
 echo 'My name is the $username'
 
 echo "$PWD"
