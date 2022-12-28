@@ -1,8 +1,9 @@
 #! /bin/bash
 
-# for
+# for-1
 for i in {1..5}; do echo $i; done
 
+# for-2
 for (( i = 0; i < 10; i++ )); do
   echo $i
 done
